@@ -4,7 +4,7 @@ export default function Hero() {
     return(
         <>
         <Image
-            style={{width: 200, height: 400}}
+            style={{width: 200, height: 400, opacity:1}}
             source={{
             uri:'https://m.media-amazon.com/images/I/51S-uHIx5sL._AC_SX679_.jpg'}}/>
         </>

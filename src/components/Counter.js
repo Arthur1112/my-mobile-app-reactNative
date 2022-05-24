@@ -27,5 +27,7 @@ const styles = StyleSheet.create({
     counterText: {
         fontSize: 30, 
         textAlign: 'center',
+        textShadowColor: 'black',
+        textShadowRadius: 13,
     }
 })
