@@ -4,9 +4,9 @@ export default function Hero() {
     return(
         <>
         <Image
-            style={{width: 406, height: 232}}
+            style={{width: 200, height: 400}}
             source={{
-            uri:'https://bocacode.com/assets/images/2021.7.27-BocaCode-Web-53.png'}}/>
+            uri:'https://m.media-amazon.com/images/I/51S-uHIx5sL._AC_SX679_.jpg'}}/>
         </>
     )
 }
