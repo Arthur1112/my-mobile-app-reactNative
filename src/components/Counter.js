@@ -1,5 +1,6 @@
 import { View, Text, Button, StyleSheet } from "react-native";
 import { useState } from "react";
+import reactDom from "react-dom";
 
 export default function Counter() {
     const [count, setCount] = useState(0)
@@ -19,6 +20,9 @@ const styles = StyleSheet.create({
         margin: 14,
         padding: 14,
         backgroundColor: 'beige',
+        borderColor: 'red',
+        borderWidth: 3,
+        borderRadius: '30%',
     },
     counterText: {
         fontSize: 30, 
