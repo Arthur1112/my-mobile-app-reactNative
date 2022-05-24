@@ -23,6 +23,8 @@ const styles = StyleSheet.create({
         borderColor: 'red',
         borderWidth: 3,
         borderRadius: '30%',
+        shadowOpacity: 1,
+        shadowColor: 'white'
     },
     counterText: {
         fontSize: 30, 
